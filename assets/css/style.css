@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 body{
 overflow-x: hidden;
+background: black;
 }
 
 
@@ -574,9 +575,6 @@ color: #DBA11C;
 /*--------------------------------------------------------------
 # HOME PAGE HERO SECTION
 --------------------------------------------------------------*/
-
-
-
 #hero {
   width: 100%;
   position: relative;
@@ -612,7 +610,8 @@ max-width: 100%;
 
 .section_two {
 position: absolute;
-right: 288px;
+/*right: 288px;*/
+
 }
 
 .herobtn {
@@ -983,6 +982,7 @@ padding:120px 0;
 
 #space_steps{
 justify-content: space-between;
+padding: 0 11px;
 }
 
 .start h2{
@@ -1098,7 +1098,7 @@ margin: 0;
 
 
 .footer-policy ul li a{
-    text-decoration: none;
+text-decoration: none;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -1110,8 +1110,8 @@ cursor: pointer;
 
 
 .copyright {
-    text-align: center;
-    padding-top: 50px;
+text-align: center;
+padding-top: 50px;
 }
 
 .copyright p{
@@ -1125,2116 +1125,544 @@ color: #FFFFFF;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ul.trand1 {
-    justify-content: space-around;
-    display: flex;
-    list-style: none;
-        padding: 0;
+/*--------------------------------------------------------------
+# ACCOUNT PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION START
+--------------------------------------------------------------*/
+section.breadcrumb_main {
+padding: 150px 0 80px 0;
 }
 
-.intro {
-/*      padding-right: 50px;*/
-    padding-left: 140px;
-   margin-top: 25px;
-}
-
-section#trand {
-    margin-top: -150px;
-}
-
-ul.trand1 li {
-}
-
-ul.trand1 li {
-font-family: "Open Sans", sans-serif;
-font-size: 10px;
-    line-height: 15PX;
-color: #263238;
-}
-
-ul.trand1 li span.eur{
-font-family: 'Play', sans-serif;
+.breadcrumb_text h2{
+font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight:600;
+font-size: 44px;
+line-height:48px;
+color: #FFFFFF;
+text-align: center;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  justify-content: center;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+display: inline;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #A410FF;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+color: #FFFFFF;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:400;
 font-size: 20px;
-line-height: 150%;
-color: #66BB6A;
+line-height:30px;
 }
 
-ul.trand1 li span.use{
-font-family: "Open Sans", sans-serif;
-font-size: 10px;
-line-height: 150%;
-/*display: flex;
-align-items: flex-end;
-text-align: right;*/
-color: #66BB6A;
-display: inline-block;
-    padding-top: 13px;
-}
-
-
-ul.trand1 li span.nastes{
-font-family: 'Play', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 150%;
-color: #EF5350;
-}
-
-
-ul.trand1 li span.power{
-font-family: "Open Sans", sans-serif;
-font-size: 10px;
-line-height: 150%;
-/*display: flex;
-align-items: flex-end;
-text-align: right;*/
-color: #66BB6A;
-display: inline-block;
-    padding-top: 13px;
-}
-
-#trand .deta{
-    border-right:none;
-}
-
-#trand .deta:first-child  {
-    border-left: 2px solid  #263238;
-}
-
-
-.investtext h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-    margin-bottom: 15px;
-}
-
-
-.investtext p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-bottom: 60px;
-}
-
-
-
-.invest a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-     background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      border: 1px solid transparent;
-}
-
-
-
-.invest a.start-trand-btn:hover{
-border: 1px solid #DBA11C;
- background: transparent;
- color: #3C557A;
-}
-
-
-
-.Exp-counter p {
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #566175;
-    margin-top: 25px;
-}
-
-.Exp-counter {
-    border: 1px solid #DBA11C;
-    margin: 15px 3px;
-    padding: 38px 0px;
-      transition: all 200ms ease-in;
-          background: #fff;
-}
-
-.Exp-counter:hover{
-
-/*    box-shadow: 0px 0px 10px #566175;*/
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.1);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.1);
-    transition: all 200ms ease-in;
-    transform: scale(1.1);
-
-}
-
-section.invest {
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-
-section.stepsmain{
-  background:  url(../img/steps1.png);
-      padding-top: 100px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.rest {
-    display: flex;
-}
-
-
-/*.step1 {
-    margin: 0 10px 0 0px;
-
-}*/
-
-/*.step1 span{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #000000;
-background: #DBA11C;
-}*/
-
-.register h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-transform: uppercase;
-color: #DBA11C;
-}
-
-.register p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-    padding-right: 112px;
-}
-
-.stepright h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.stepright p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-}
-
-
-.register span {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #000000;
-    background: #DBA11C;
-    padding: 5px 9px 5px 13px;
-    border-radius: 30px;
-    margin: 0 5px 0px 0px;
-
-}
-
-.stepsmain .col-lg-5.col-md-6 {
-    padding: 0;
-}
-
-.stepsleft {
-    position: relative;
-}
-
-.stepsleft:after {
-    content: "";
-    background: url(../img/line1.png);
-    position: absolute;
-    height: 230px;
-    width: 1px;
-    right: -100px;
-    bottom: -171px;
-}
-
-
-.row.counters.aos-init.aos-animate {
-    position: relative;
-}
-
-
-.row.counters:after {
-     content: "";
-    background: url(../img/line1.png);
-    position: absolute;
-    height: 167px;
-    width: 1px;
-    /* top: 0; */
-    bottom: -204px;
-    left: -100px;
-}
-
-.confident1{
-   position: relative;
-}
-
-
-.confident1:after {
-  content: "";
-    background: url(../img/line1.png);
-    position: absolute;
-    height: 180px;
-    width: 1px;
-    top: -132px;
-    bottom: 0px;
-    right: -10px;
-}
-
-/*div#footer1:after {
-    content: "";
-    background: url(../img/footerf.png) no-repeat;
-    background-position: top right;
-    position: absolute;
-    height: 97%;
-    width: 64px;
-    rotate: 0;
-    right: -30px;
-}*/
-/*
-div#footer1{
-     position: relative;
-}
-*/
-
-section.instrument-sec {
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
-
-.step2 {
-    text-align: right;
-}
-
-
-.step1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-    margin-bottom: 15px;
-
-}
-
-.step1 p{
-font-family: "Open Sans", sans-serif; 
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-    margin-bottom: 60px;
-}
-
-
-
-.instrument-sec a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-    background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      border: 1px solid transparent;
-}
-
-.instrument-sec a.start-trand-btn:hover {
-border: 1px solid #DBA11C;
- background: transparent;
- color: #3C557A;
-}
-
-.appstext h2{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-margin-bottom: 15px;
-}
-
-/*.mobile{
-padding-right: 49px;
-}*/
-
-
-section.brand-name .col-lg-5.col-md-10 {
-    padding-right: 0;
-}
-
-.appstext p{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-bottom: 50px;
-}
-
-.app2 p{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #3C557A;
-border: 3px solid #DBA11C;
-border-radius: 10px;
-padding: 7px 30px;
-    margin-right: 15px;
-}
-
-.app2 p:hover{
-border: 3px solid transparent;
-background: #DBA11C;
-color: #fff;
-}
-
-
-.app2 {
-    display: inline-block;
-    width: 45%;
-}
-
-
-section.apps .row {
-    align-items: center;
-}
-
-
-section.apps{
-    background:url(../img/count.png);
-        background-repeat: no-repeat;
-/*      padding-top: 100px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;*/
-}
-
-.protect h2{
- font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.protect p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-text-align: center;
-color: #FFFFFF;
-    margin-bottom: 50px;
-}
-
-div#insta {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.count1 span{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 120%;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-}
-
-.count1 h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-
-.profit-main{
- background:url(../img/group5.png);
-     background-repeat: no-repeat;
-     padding-top: 130px;
-    padding-bottom: 100px;
-    margin-top: -60px;
-}
-
-.profit1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-    padding-top: 50px;
-        margin-bottom: 15px;
-}
-
-.profit1 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-}
-
-
-
-.profit2 a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      margin-bottom :20px;
-      border: 1px solid transparent;
-} 
-
-.profit2 a.start-trand-btn:hover{
-background: transparent;
-  border: 1px solid #DBA11C;
-
-}
-
-section.profit-main .row {
-    align-items: end;
-}
-
-
-div#perfect {
-    text-align: end;
-}
-
-.brand-name{
-padding-top: 100px;
-padding-bottom: 100px;
-}
-
-.brand1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-margin-top: 10px;
-}
-
-
-.brand1 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-top: 15px;
-}
-
-
-.diposeble{
-background:url(../img/depositphotos.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-            padding: 50px 143px 77px 50px;
-}
-
-.brand3{
-background:url(../img/depositphotos1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-        padding: 50px 145px 50px 50px;
-
-}
-
-
-.diposeble h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.diposeble p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-margin: 0;
-}
-
-.brand3 h3{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.brand3 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-margin: 0;
-}
-
-
-section.brandsec{
-  padding-bottom: 100px;
-}
-
-
-
-
-.confident-btn a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none; 
-     background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      margin-bottom :20px;
-      border:1px solid transparent;
-}
-
-
-.confident-btn a.start-trand-btn:hover {
-border:1px solid #DBA11C;
-background: transparent;
-}
-
-
-.confident-main{
-background:url(../img/foot.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.confident1 h2{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-    margin-bottom: 20px;
-        padding-top: 80px;
-}
-
-
-
-.confident1 p{
-font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
-    margin-bottom: 20px;
-}
-
-section.confident-main .row {
-    align-items: center;
-}
-
-/*
-.confident-main{
-background:url(../img/depositphotos2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-.back-to-top{
-/*      right: -7px;*/
-      display: none !important
-}
-
-img.ipedmain {
-    display: none;
-}
-
-.col-lg-2.mobile1 {
-    display: none;
-}
-
-.col-lg-2.mobile2 {
-    display: block;
-
-}
-header#header .container {
-    justify-content: space-between;
-}
-header#header .me-auto {
-    margin-right: unset!important;
-}
-
-
-
-#header.header-transparent {
-    background: #01090B;
-}
-
-#hero {
-    position: relative;
-    background: url(../img/group8.png) center top no-repeat;
-    background-size: contain;
-/*    padding-top: 150px;*/
-    margin-top: 90px;
-}
-
-#hero .intro-info h1{
-font-size: 36px;
-    padding-bottom: 20px;
-        padding-top: 140px;
-}
-
-a.btn-get-started.scrollto{
-      padding: 16px 61px;
-}
-
-
-section#trand {
-    margin-top: -45px;
-}
-
-.intro{
-  padding-right: 15px;
-    padding-left: 0px;
-    margin-top: 0;
-}
-
-
-section.invest{
-  padding-top: 20px;
-      padding-bottom: 50px;
-}
-
-.stepright h2 {
-    font-size: 26px;
-  }
-
-.investtext h2 {
-    font-size: 26px;
-    padding-right: 50px;
-  }
-
-  .investtext p{
-    margin-bottom: 30px;
-  }
-
-.invest a.start-trand-btn{
-      padding: 16px 61px;
-          margin-bottom: 30px;
-}
-
-.Exp-counter p br {
-    display: none;
-}
-
-section.apps{
-      background: url(../img/mobile1.png);
-      background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.appstext h2{
-font-size: 26px;
-color: #FFFFFF;
-}
-
-
-.appstext p{
-color: #FFFFFF;
-    margin-bottom: 20px;
-}
-
-.mobile {
-    padding-right: 15px;
-}
-
-.app2 {
-    display: block;
-    width: unset;
-}
-
-.Exp-counter {
-    margin: 15px 35px;
-}
-
-.app2 p{
-color: #FFFFFF;
-}
-
-.apps .counters{
-    display: block;
-}
-
-
-section.stepsmain{
-        background: url(../img/mobileimg.png);
-            padding-top: 50px;
-    background-position: bottom;
-    background-size: cover;
-}
-
-.step1 h2 {
-    font-size: 26px;
-}
-
-.count1{
-  margin-bottom: 35px;
-}
-
-
-.protect h2 {
-    font-size: 26px;
-    text-align: left;
-}
-
-.protect p{
-  text-align: left;
-}
-
-div#insta {
-    padding-top: 50px;
-      padding-bottom: 135px;
-}
-
-section.instrument-sec{
-      padding-top: 50px;
-       padding-bottom: 50px;
-}
-
-.instrument-sec a.start-trand-btn{
-   padding: 16px 61px;
-       margin-bottom: 30px;
-}
-
-.step1 p{
-  margin-bottom: 30px;
-}
-
-.stepsleft {
-    padding-top: 10px;
-}
-
-.rest {
-    padding-bottom: 12px;
-  }
-
-img.singleimg {
-    max-width: 100%;
-}
-
-.step2 img {
-    max-width: 100%;
-}
-
-.app-1 img {
-    max-width: 100%;
-}
-
-.confident2 img {
-    max-width: 100%;
-}
-
-
-.profit1 h2 {
-    font-size: 26px;
-    padding-top: 148px;
-  }
-
-.profit2 a.start-trand-btn{
-    padding: 16px 61px;
-}
-
-.profit2 {
-    text-align: left;
-}
-
-.profit-main{
-  background: url(../img/mobile3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-margin-top: -125px;
-padding-top: 150px;
-padding-bottom: 50px;
-}
-
-.brand-name {
-    padding-top: 50px;
-        padding-bottom: 50px;
-}
-
-.brand1 h2{
-font-size: 26px;
-}
-
-
-.brand1 {
-    padding-top: 30px;
-}
-
-.diposeble {
-    padding: 30px 15px 30px 15px;
-  }
-.brand3{
- padding: 30px 15px 30px 15px;
-     margin-top: 30px;
-}
-
-.confident1 h2{
-  font-size: 26px;
-
-}
-
-.confident-main {
-    background: url(../img/mobile8.png);
-    background-repeat: no-repeat;
-        background-size: cover;
-  }
-
-
-.confident-btn a.start-trand-btn{
-  display: none;
-}
-
-
-footer#footer {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-.footer-links {
-    display: none;
-}
-
-
-/*#footerlogo .mobile {
-    display: block;
-        margin-bottom: 20px;
-}
-
-.logoimg {
-    display: none;
-}*/
-
-.logotext {
-    margin-bottom: 20px;
-}
-
-div#footerlogo {
-    border-top:none;
-    padding: 0px 0;
-        padding-bottom: 10px;
-}
-
-/*.logotext:last-child {
-   margin-bottom: 30px;
-}
-*/
-
-div#footer3 {
-    padding: 30px 0 30px 0;
-}
-
-.mobile2 {
-    padding-bottom: 30px;
-}
-
-div#footer1 {
-    padding-bottom: 30px;
-}
-
-.social1{
-display: none;
-}
-
-.social2{
-  display: none;
-}
-
-
-.language {
-    display: none;
-}
-
-div#footer1:after{
-  display: none;
-}
-
-.trandline {
-    display: none;
-}
-
-.stepsleft:after {
-  display: none;
-}
-
-.row.counters:after{
-  display: none;
-}
-
-.confident1:after{
-  display: none;
-}
-
-.stepsmain .col-lg-5.col-md-6 {
-    padding: 15px;
-}
-
-.profit1 p{
-margin-bottom
-}
-
-section.brand-name .col-lg-5.col-md-10 {
-    padding-right:  15px;
-}
-
-div#policy1 p br {
-    display: none;
-}
-
-div#policy1 {
-    padding-left: 0px;
-}
-
-}
-
-
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
-  
-
-  .language {
-    padding-right: 20px;
-    padding-left: 0;
-}
-
-.trandline img {
-    max-width: 100%;
-    height: 130px;
-}
-.trandline {
-    text-align: center;
-    text-align: left;
-    padding-left: 70px;
-    margin-top: -19px;
-    padding-right: 0;
-}
-
-.register p{
-      padding-right: 0px;
-}
-
-.stepsmain .col-lg-5.col-md-6 {
-    padding: 15px;
-}
-
-.stepsleft:after {
-    content: "";
-    background: url(../img/line1.png);
-    position: absolute;
-    height: 230px;
-    width: 1px;
-    right: 102px;
-    bottom: -293px;
-  }
-
-
-#header.header-transparent {/*
-    background: transparent;*/
-    background: linear-gradient(127.32deg, #191929 6.98%, #181824 61.94%);
-    box-shadow: 2px 2px 10px rgb(0 0 0 / 15%);
-}
-header#header .container {
-    justify-content: space-between;
-}
-header#header .me-auto {
-    margin-right: unset!important;
-}
-header#header h1.logo {
-    margin-right: auto !important;
-}
-
-.confident2 img {
-    max-width: 100%;
-}
-
-#hero{
-background: url(../img/ipade.png);
-    background-repeat: no-repeat;
-    margin-top: 89px;
-padding-top: 0;
-}
-
-
-.invest a.start-trand-btn {
-    padding: 16px 25px;
-        margin-bottom: 50px;
-  }
-
-  .investtext p{
-    margin-bottom: 30px;
-  }
-section.invest{
-  padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-section.stepsmain .col-lg-1 {
-    display: none;
-}
-
-section.stepsmain {
-    background-size: cover;
-  }
-
-  .stepsleft {
-    padding-top: 50px;
-}
-
-
-.instrument-sec a.start-trand-btn{
-   padding: 16px 25px;
-        margin-bottom: 50px;
-}
-
-.step1 p{
-    margin-bottom: 30px;
-}
-
-.mobile {
-    padding-right: 0px; 
-        padding-left: 30px;
-            padding-bottom: 50px;
-
-}
-
-section.apps {
-    background: url(../img/iped1.png);    
-    background-size: cover;
-}
-
-.app2 {
-    display: block;
-    width: 72%;
-  }
-
-.appstext p{
-    margin-bottom: 10px;
-}
-
-.app-1 img {
-    position: relative;
-    left: -50px;
-}
-
-.protect br {
-    display: none;
-}
-
-
-.count1 {
-    padding-bottom: 30px;
-}
-
-
-.count1 h3{
-padding-top: 10px;
-}
-
-.profit2 {
-    text-align: initial;
-}
-
-
-.profit-main {
-    background: url(../img/iped3.png);  
-    background-repeat: no-repeat;
-    z-index: -111;
-    position: relative;
-    margin-top: -76px;
-        padding-top: 150px;
-}
-
-.brand-name {
-    padding-top: 50px;
-  }
-
-.brand1 {
-    padding-top: 50px;
-}
-
-
-.diposeble {
-    margin-bottom: 30px;
-  }
-
-.brand1 p {
-    padding-right: 92px;
-}
-.confident-main {
-    background: url(../img/iped5.png);
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-
-.confident1:after{
-display: none;
-}
-
-div#footer1:after{
-  display: none;
-}
-
-.footer-links {
-  display: none;
-}
-
-.logotext {
-    padding-bottom: 20px;
-}
-div#footerlogo {
-    border-bottom: 1px solid #FFF;
-    border-top: 1px solid #FFF;
-    padding: 50px 0;
-  }
-
-
-
-.confident-btn {
-    display: none;
-}
-
-
-
-footer#footer{
-      margin-top: -8px;
-}
-
-img.ipedmain1 {
-    display: none;
-}
-
-img.ipedmain {
-    display: block;
-}
-
-
-#hero {
-    height: 63vh;
-  }
-
-.intro {
-/*    padding-right: 0px;*/
-  padding-left: 0px; 
-    margin-top: 0px;
-}
-
-.social2 {    
-  margin-right: 15px;
-}
-
-a.back-to-top.d-flex.align-items-center.justify-content-center.active {
-/*    display: none !important;*/
-}
-.back-to-top{
-      right: -7px;
-      display: none !important;
-}
-
-
-}
-
-
-
-/*----------------------------------------------------- ACCOUNT INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-#header.header-transparent {
-    background: #000;
-}
-
-.inner-header {
-    background: #000 !important;
-}
-
-#account {
-    padding-bottom: 100px;
-    background: #000 url(../img/Withdrawal1.png);
-    background-position: 20% 100%;
-    background-repeat: no-repeat;
-    padding-top: 90px;
-}
-
-.account-left {
-    padding-top: 70px;
-        position: relative;
-    top: -50px;
-}
-
-
-.account-left p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #FFFFFF;
-}
-
-.account-right h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    position: relative;
-    top: -65px;
-}
-section#about-account {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-
-.confidentli1 h2 {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height:52px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
-margin-bottom: 20px;
-}
-
-.confidentli1 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #566175;
-}
-
-
-section.confidentli {
-      background: url(../img/Rectangle9.png);
-          background-repeat: no-repeat;
-    padding-top: 73px;
-    padding-bottom: 100px;
-}
-
-
-section.confidentli .row {
-    align-items: center;
-}
-
-.breadcrumbs ol{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 150%;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-}
-
-.breadcrumbs {
-    padding: 15px 0;
-    padding-bottom: 80px;
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-/*    font-size: 14px;*/
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-  padding-right: 5px;
-    color: #FFFFFF;
-    content: "/";
-}
-
-.breadcrumbs ol li a{
+ul.breadcrumb li a.breadcrumb_link{
+  color: #A410FF;
   text-decoration: none;
-color: #DBA11C;
-padding-right: 5px;
 }
 
 
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #A410FF;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION END
+--------------------------------------------------------------*/
 
 
-@media (min-device-width: 100px) and (max-device-width: 767px){
+/*--------------------------------------------------------------
+# ACCOUNT FIRST SECTION START
+--------------------------------------------------------------*/
+/*.account_main{
+padding: 0 0 80px 0;
+}*/
 
-.confidentli2 img {
-    max-width: 100%;
+
+.account_main {
+padding: 0px 0 120px 0;
+background-image: url(../image/Group6.png);
+background-position: 35% -14%;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-
-.account-right h2{
-  font-size: 26px;
+.account_text {
+background: #FFFFFF;
+border-radius: 40px;
+padding: 78px 48px 78px 48px;
 }
 
-.account-left {
-     padding-top: 0px; 
-    position: unset; 
-    top: 0px;
-}
-
-
-#account {
-     padding-bottom: 50px; 
-    background: #000 url(../img/Withdrawal1.png);
-    background-position: unset;
-    background-repeat: no-repeat;
-    padding-top: 90px;
-}
-
-section#about-account {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-section.confidentli {
-    background: url(../img/Rectangle9.png);
-    background-repeat: no-repeat;
-  padding-top: 0px; 
-    padding-bottom: 0px; 
-
-}
-
-
-.confidentli1 h2{
-    font-size: 26px;
-    line-height: 35px;
-    margin-bottom: 10px;
-
-}
-
-}
-
-
-
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
-
-
-.confidentli2 img {
-    max-width: 100%;
-}
-
-section.confidentli{
- padding-bottom:0PX;
-}
-
-section#about-account{
-  padding-bottom: 0px;
-}
-
-
-.breadcrumbs{
-  padding-top: 0;
-}
-
-#account{
-  padding-bottom: 0;
-}
-}
-
-
-
-
-
-
-/*----------------------------------------------------- platform INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-
-.platform{
-   background: url(../img/Rectangle8.png);
-    background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;   
-    background-size: cover;
-}
-
-
-.platform2 h2{
-font-family: 'Open Sans', sans-serif;
+.account_text p{
+font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;/*
-display: flex;
-align-items: center;
-text-align: center;*/
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
+font-weight:400;
+font-size: 20px;
+line-height:30px;
+color: #05040E;
+margin: 0;
+}
+
+p.account {
+padding-top: 20px;
+}
+
+.account_img img {
+max-width: 100%;
 }
 
 
-.platform2 {
+#second_section{
+padding-top:120px;
+}
+
+.second_text {
+background: #FFFFFF;
+border-radius: 40px;
+/*padding: 78px 48px 78px 48px;*/
+    padding: 83px 55px 83px 55px;
+}
+
+.second_text h2{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:600;
+font-size: 44px;
+line-height:48px;
+color: #05040E;
+}
+
+.second_text p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:400;
+font-size: 20px;
+line-height:30px;
+color: #05040E;
+padding: 10px 0 0 0;
+}
+
+.account_btn {
+padding: 10px 0 0 0;
+}
+
+a.btn-get-started3{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+text-decoration:none;
+background: #A410FF;
+border-radius: 100px;
+padding:10px 45px;
+display: inline-block;
+border: 1px solid transparent;
+}
+
+a.btn-get-started3:hover{
+    background: #45086A;
+border: 1px solid transparent;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# PLATFORM PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# PLATFORM FIRST SECTION START
+--------------------------------------------------------------*/
+
+#platform_main {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 90px 60px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.platform_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height:30px;
+    color: #05040E;
+}
+
+.platform_img img{
+max-width: 100%;
+}
+
+img.plate_img {
+    padding-bottom: 15px;
+}
+
+.platformtree_img img {
+    max-width: 100%;
+}
+
+section.platform_main {
+    padding: 0 0 120px 0;
+}
+
+#second_section1 {
+    padding-top: 120px;
+}
+
+
+
+/*--------------------------------------------------------------
+# CURRENCIES  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# CURRENCIES FIRST SECTION START
+--------------------------------------------------------------*/
+.currencie_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height:30px;
+    color: #FFF;
+}
+
+section.currencie .row {
+    align-items: center;
     padding-bottom: 100px;
 }
 
-#breadcrumbs1 {
-    padding: 15px 0;
-    padding-bottom: 50px;
-}
-
-.platetext1 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-}
-
-.platetext1{
-  padding-bottom: 30px;
-}
-
-section.platetext{
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-
-.platefrom2 h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #fff;
-}
-
-.platefrom2 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #fff;
+.currencie_img img {
+    max-width: 100%;
 }
 
 
+.currencie{
+padding: 0 0 12 0px 0;
+}
 
-section#paltefrom-main{
-   background: url(../img/group9.png);
-       background-size: 100% 100%;
-           background-repeat: no-repeat;
-               background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 245px;
-    padding-bottom: 92px;
+.currencie_order{
+    background: #FFF;
+    border-radius: 40px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+
 }
 
 
-section#paltefrom-main .row {
+.currencie_order ul li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:700;
+    font-size: 32px;
+    line-height:41.6px;
+    color: #05040E;  
+    padding: 0 10px;
+}
+
+.currencie_order ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
     align-items: center;
 }
 
 
-.platefromimg img {
-    max-width: 100%;
-}
-
-.platimg img {
-    max-width: 100%;
-}
-
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-
-.platform2 h2{
-    font-size: 26px;
-}
-
-.platform2 {
-    padding-bottom: 20px;
-}
-
-
-.platimg img {
-     max-width: 100%; 
-}
-
-.platefromimg img {
-    max-width: 100%;
-}
-
-section.platetext{
-    padding-bottom: 50px;
-}
-
-section#paltefrom-main{
-    background: #000 url(../img/group9.png);
-        padding-top: 0px;
-            padding-bottom: 0px;
-}
-
-.platefrom2 h2{
-      font-size: 26px;
-}
-
-
-.platform {
-  padding-bottom: 50px;
+#currencie_main{
+background: #A410FF;
+border-radius: 40px;
+ padding: 83px 0px 83px 55px;
 }
 
 
 
-}
-
-
-
-
-
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
-  
-
-.platimg img {
-     max-width: 100%; 
-}
-
-.platefromimg img {
-    max-width: 100%;
-}
-section#paltefrom-main {
-    background: #000 url(../img/group9.png);
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.platefrom2 p {
-    margin-bottom: 50px;
-  }
-
-
-
-}
-
-
-
-
-
-/*----------------------------------------------------- TRAIDING INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-
-/*#tranding{
-  background: url(../img/group45.png);
-      background-repeat: no-repeat;
-
-    padding-bottom: 170px;   
-    background-size: cover;
-        margin-top: 90px;
+/*.currencie_last {
+border-radius: 40px;
+padding: 78px 48px 78px 48px;
+   
 }*/
 
-.platform1 h2{
-font-family: 'Open Sans', sans-serif;
+.currencie_last h2{
+font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-bottom: 100px;
+font-weight:600;
+font-size: 44px;
+line-height:48px;
+color: #FFF;
 }
 
-.platform1 p{
-font-family: 'Open Sans', sans-serif;
+.currencie_last p{
+font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
+font-weight:400;
+font-size: 20px;
+line-height:30px;
+color: #FFF;
+padding: 10px 0 0 0;
 }
 
-section.about-account1{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.account_btn {
+padding: 10px 0 0 0;
 }
 
-section#mobileappp-2 {
-  padding-bottom: 100px;
-}
-
-
-.appstext5 h2{
-font-family: 'Open Sans', sans-serif;
+a.btn-get-started4{
+font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #05040E;
+text-decoration:none;
+background: #FFF;
+border-radius: 100px;
+padding:10px 45px;
+display: inline-block;
+border: 1px solid transparent;
+}
+
+a.btn-get-started4:hover{
+    background: #45086A;
+border: 1px solid transparent;
+color: #FFFF;
 }
 
 
-.appstext5 p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------# MOBILE RESPONSIVE #--------------------------------------------------------------*/
+
+@media (min-device-width: 100px) and (max-device-width: 767px) {
+/*--------------------------------------------------------------
+# ACCOUNT PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION START
+--------------------------------------------------------------*/
+.breadcrumb_text h2 {
+    font-size: 32px;
+    line-height: 36px;
 }
 
-
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-
-.platform1 h2 {
-    padding-bottom: 20px;
-        font-size: 26px;
+ul.breadcrumb li a {
+    font-size: 18px;
+    line-height: 25px;
 }
 
-/*#tranding {
-    padding-bottom: 50px;
-  }*/
-
-  section.about-account1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+section.breadcrumb_main {
+    padding: 120px 0 50px 0;
 }
 
-.appstext5 h2 {
-   font-size: 26px;
-    color: #fff;
-}
-.appstext5 p{
-   color: #fff;
-}
-section#mobileappp-2 {
-    padding-bottom: 0px;
+/*--------------------------------------------------------------
+# ACCOUNT FIRST SECTION START
+--------------------------------------------------------------*/
+.account_main {
+    padding: 0px 0 100px 0;
 }
 
+.account_text {
+    padding: 50px 20px 50px 20px;
 }
 
-@media (min-device-width: 768px) and (max-device-width: 1024px){
-.platform1 h2 {
-    padding-bottom: 50px;
+.account_text p {
+    font-size: 18px;
+    line-height: 25px;
 }
 
-section#mobileappp-2 {
-    padding-bottom: 0px;
-}
-/*
-#tranding {
-    padding-bottom: 100px;
-  }*/
-
-}
-
-
-/*----------------------------------------------------- TRAIDING INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-
-#ticker{
-  background: url(../img/Rectangle217.png);
-      background-repeat: no-repeat;
-  background-size:cover;
-  padding-top: 100px;
-    padding-bottom: 100px;
-
-}
-
-
-.tickertex h2{
-color: #fff;
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
-.tickerimages img {
+.account_img img {
     max-width: 100%;
-}
-
-section#ticker2 {
-padding-top:100px;
-    padding-bottom:100px;
-}
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-
-
-.tickertex h2 {
-        font-size: 26px;
-}
-
-ticker {
-    padding-bottom: 50px;
-}
-
-section#ticker2 {
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
+#second_section {
+    padding-top: 80px;
+}
+
+.second_text{
+  padding: 50px 20px 50px 20px; 
+}
+
+.second_text h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.second_text p{
+   font-size: 18px;
+    line-height: 25px;
 }
 
 
-/*----------------------------------------------------- COMPANY INNER PAGE -----------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------*/
-#company-1{
-  background: url(../img/group12.png);
-      background-repeat: no-repeat;
-  background-size:cover;
-  padding-top: 100px;
-    padding-bottom: 100px;
+a.btn-get-started3{
+    font-size: 18px;
+    line-height: 25px;
 }
 
 
-.company-text h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-bottom: 100px;
+/*--------------------------------------------------------------
+# PLATFORM PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# PLATFORM FIRST SECTION START
+--------------------------------------------------------------*/
+#platform_main {
+    padding: 50px 15px;
+    margin-bottom: 80px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
-.company-text p{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF;
+.platform_text p{
+       font-size: 18px;
+    line-height: 25px;
 }
 
-.getprofit1 h2{
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #3C557A;
+section.platform_main {
+    padding: 0 0px 120px 0px;
 }
 
-.getprofit1 p{
-  font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #566175;
-margin-bottom: 30px
+.platformtree_img {
+    padding-top: 50px;
 }
 
-section#secondsec {
-    padding-top: 100px;
-    padding-bottom: 100px;
+#second_section1 {
+    padding-top: 80px;
 }
 
-#secondsec a.start-trand-btn {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
+
+
+
+}
+
+/*--------------------------------------------------------------# IPAD RESPONSIVE #--------------------------------------------------------------*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+/*--------------------------------------------------------------
+# ACCOUNT PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION START
+--------------------------------------------------------------*/
+section.breadcrumb_main {
+    padding: 150px 0 80px 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# ACCOUNT FIRST SECTION START
+--------------------------------------------------------------*/
+.account_main {
+    padding: 0px 0 100px 0;
+}
+
+.account_text {
+        padding: 50px;
+}
+
+.account_img img {
+    max-width: 100%;
+    padding-top:50px;
+}
+
+.account_img {
     text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-     background: #DBA11C;
-  border-radius: 10px;
-      padding: 18px 35px;
-      display: inline-block;
-      border: 1px solid transparent;
 }
 
-
-
-#secondsec a.start-trand-btn:hover{
-border: 1px solid #DBA11C;
- background: transparent;
- color: #3C557A;
+.second_text{
+  padding: 50Px;
 }
 
+/*--------------------------------------------------------------
+# PLATFORM PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# PLATFORM FIRST SECTION START
+--------------------------------------------------------------*/
 
-
-
-
-@media (min-device-width: 100px) and (max-device-width: 767px){
-.getprofitimg img {
-    max-width: 100%;
+#platform_main{
+    padding: 50px;
 }
 
-.company-text h2 {
-    padding-bottom: 50px;
-     font-size: 26px;
-}
-
-.getprofit1 h2{
-  font-size: 26px;
-}
-
-section#secondsec {
+.platform_img {
+    text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
-.getprofit1 {
-  padding-top: 50px;
+#second_section1 {
+    padding-top: 100px;
 }
 
-#secondsec a.start-trand-btn {
-    padding: 16px 61px;
-    margin-bottom: 30px;
-}
-
+.platformtree_img {
+     text-align: center;
+    padding-top: 50px;
 }
 
 
-@media (min-device-width: 768px) and (max-device-width: 1024px){
-.getprofitimg img {
-    max-width: 100%;
-}
-
-.company-text h2 {
-    padding-bottom: 50px;
 }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

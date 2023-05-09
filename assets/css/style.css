@@ -3311,3 +3311,1083 @@ section#secondsec {
 
 
 }
+
+
+
+/*--------------------------------------------------------------
+# ACCOUNT PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION START
+--------------------------------------------------------------*/
+section.breadcrumb_main {
+padding: 150px 0 80px 0;
+}
+
+.breadcrumb_text h2{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:600;
+font-size: 44px;
+line-height:48px;
+color: #FFFFFF;
+text-align: center;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  justify-content: center;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+display: inline;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #A410FF;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+color: #FFFFFF;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:400;
+font-size: 20px;
+line-height:30px;
+}
+
+ul.breadcrumb li a.breadcrumb_link{
+  color: #A410FF;
+  text-decoration: none;
+}
+
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #A410FF;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION END
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# ACCOUNT FIRST SECTION START
+--------------------------------------------------------------*/
+/*.account_main{
+padding: 0 0 80px 0;
+}*/
+
+
+.account_main {
+padding: 0px 0 120px 0;
+background-image: url(../image/Group6.png);
+background-position: 35% -14%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.account_text {
+background: #FFFFFF;
+border-radius: 40px;
+padding: 78px 48px 78px 48px;
+}
+
+.account_text p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:400;
+font-size: 20px;
+line-height:30px;
+color: #05040E;
+margin: 0;
+}
+
+p.account {
+padding-top: 20px;
+}
+
+.account_img img {
+max-width: 100%;
+}
+
+
+#second_section{
+padding-top:120px;
+}
+
+.second_text {
+background: #FFFFFF;
+border-radius: 40px;
+/*padding: 78px 48px 78px 48px;*/
+    padding: 83px 55px 83px 55px;
+}
+
+.second_text h2{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:600;
+font-size: 44px;
+line-height:48px;
+color: #05040E;
+}
+
+.second_text p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:400;
+font-size: 20px;
+line-height:30px;
+color: #05040E;
+padding: 10px 0 0 0;
+}
+
+.account_btn {
+padding: 10px 0 0 0;
+}
+
+a.btn-get-started3{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+text-decoration:none;
+background: #A410FF;
+border-radius: 100px;
+padding:10px 45px;
+display: inline-block;
+border: 1px solid transparent;
+}
+
+a.btn-get-started3:hover{
+    background: #45086A;
+border: 1px solid transparent;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# PLATFORM PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# PLATFORM FIRST SECTION START
+--------------------------------------------------------------*/
+
+#platform_main {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 90px 60px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.platform_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height:30px;
+    color: #05040E;
+}
+
+.platform_img img{
+max-width: 100%;
+}
+
+img.plate_img {
+    padding-bottom: 15px;
+}
+
+.platformtree_img img {
+    max-width: 100%;
+}
+
+section.platform_main {
+    padding: 0 0 120px 0;
+}
+
+#second_section1 {
+    padding-top: 120px;
+}
+
+
+
+/*--------------------------------------------------------------
+# MARKETING CURRENCIES  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# MARKETING CURRENCIES FIRST SECTION START
+--------------------------------------------------------------*/
+.currencie_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height:30px;
+    color: #FFF;
+}
+
+section.currencie .row {
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.currencie_img img {
+    max-width: 100%;
+}
+
+
+.currencie{
+padding: 0 0 120px 0;
+}
+
+.currencie_order{
+    background: #FFF;
+    border-radius: 40px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.currencie_order ul li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:700;
+    font-size: 32px;
+    line-height:41.6px;
+    color: #05040E;  
+    padding: 0 10px;
+}
+
+.currencie_order ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+#currencie_main{
+background: #A410FF;
+border-radius: 40px;
+ padding: 83px 0px 83px 55px;
+}
+
+
+
+/*.currencie_last {
+border-radius: 40px;
+padding: 78px 48px 78px 48px;
+   
+}*/
+
+.currencie_last h2{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:600;
+font-size: 44px;
+line-height:48px;
+color: #FFF;
+}
+
+.currencie_last p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight:400;
+font-size: 20px;
+line-height:30px;
+color: #FFF;
+padding: 10px 0 0 0;
+}
+
+.account_btn {
+padding: 10px 0 0 0;
+}
+
+a.btn-get-started4{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #05040E;
+text-decoration:none;
+background: #FFF;
+border-radius: 100px;
+padding:10px 45px;
+display: inline-block;
+border: 1px solid transparent;
+}
+
+a.btn-get-started4:hover{
+    background: #45086A;
+border: 1px solid transparent;
+color: #FFFF;
+}
+
+
+
+/*--------------------------------------------------------------
+# ANALYTICS  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# ANALYTICS FIRST SECTION START
+--------------------------------------------------------------*/
+.analytics_img img{
+    max-width: 100%;
+}
+
+.analytics_main{
+    padding: 0 0 120px 0;
+}
+
+.analytics_main {
+    background-image: url(../image/Group6.png);
+   background-position: 35% 13%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*--------------------------------------------------------------
+# COMAPNY  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# COMAPNY FIRST SECTION START
+--------------------------------------------------------------*/
+#company{
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 70px 60px;
+}
+
+.company_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height:30px;
+    color: #05040E;
+    margin: 0;
+}
+
+p.company_title {
+    padding-top: 20px;
+}
+
+.company_img img{
+max-width: 100%;
+}
+
+.company_img{
+    padding: 80px 0;
+}
+
+#company_main {
+    padding: 0px 0px 83px 55px;
+    align-items: center;
+}
+
+/*--------------------------------------------------------------
+# ACCOUNT TYPE  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# ACCOUNT TYPE SECTION START
+--------------------------------------------------------------*/
+.account-type_text p{
+     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height:30px;
+    color: #FFFFFF;
+}
+
+.pricing-plans {
+  padding: 80px 0;
+}
+
+.pricing-card {
+  position: relative;
+  min-width: 360px;
+  /*padding: 32px;
+  padding-bottom: 96px;*/
+  padding: 60px 41px;
+  border-radius: 40px;
+  background-color: #FFF;
+/*  box-shadow: 0 0 32px transparent;*/
+}
+
+.pricing-card:hover {
+  background-color: #17142A;
+/*  box-shadow: 0 0 32px #171717;*/
+  transform: translateY(-16px) scale(1.02);
+  transition: all 0.5s ease;
+}
+
+.pricing-card .heading h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight:600;
+  font-size: 44px;
+  line-height:48px;
+  padding-bottom: 12px;
+  color: #05040E;
+}
+
+
+.pricing-card hr{
+color:#720CB0;
+}
+
+.pricing-card .price {
+  position: relative;
+  color: #05040E;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight:600;
+  font-size: 44px;
+  line-height:48px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.pricing-card ul.features {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card .fa-check:before {
+    content: "\f00c";
+    color: #A410FF;
+    font-size: 14px;
+}
+
+.pricing-card .fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+    color: rgba(164, 16, 255, 0.5);
+    font-size: 14px;
+}
+
+ul.features ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.pricing-card .features li {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight:400;
+  font-size: 20px;
+  line-height:30px;
+  padding-bottom: 16px;
+  color: #05040E;
+  display: flex;
+    align-items: center;
+}
+
+
+span.price_text {
+    float: right;
+}
+
+.pricing-card .features li strong {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight:400;
+  font-size: 20px;
+  line-height:30px;
+  color: #05040E;
+   padding-left: 5px;
+}
+
+ul.close li strong, ul.close li {
+    color:#69686E !important ;
+}
+
+.pricing-card .cta-btn {
+  padding: 13px 85px;
+  background: #A410FF;
+  border-radius: 100px;
+  color:#FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  border: none;
+
+}
+
+.pricing-card.basic:hover h4, .pricing-card.basic:hover p,.pricing-card.basic:hover li,.pricing-card.basic:hover strong{
+    color: #FFF;
+}
+
+ul.close li strong, ul.close li:hover {
+    color:#69686E !important ;
+}
+
+
+/*--------------------------------------------------------------
+# TRADING FAQS PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# TRADING FAQS SECTION START
+--------------------------------------------------------------*/
+
+.qna {
+        padding: 38px 45px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 0 20px 0;
+        position: relative;
+}
+
+.question {
+  color:#05040E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s;
+      display: flex;
+    align-items: center;
+        margin: 0;
+}
+
+.answer p {
+  color:#05040E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+      margin: 0;
+
+}
+
+.qna .answer {
+  height: 0px;
+  transition: 0.3s linear;
+  overflow: hidden;
+  padding: 0;
+      /*position: absolute;
+    right: 0px;
+    left: 0;
+    z-index: 11;
+    padding: 0 45px;
+    background: #FFFFFF;*/
+}
+
+.question:hover {
+  color: #000;
+}
+
+.qna.active .question {
+  color: #A410FF;
+}
+
+.qna .question::after {
+  content: ">";
+  display: inline-block;
+  margin-right: 5px;
+  transition: transform 0.3s;
+}
+
+.qna.active .question::after {
+  transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------# MOBILE RESPONSIVE #--------------------------------------------------------------*/
+
+@media (min-device-width: 100px) and (max-device-width: 767px) {
+/*--------------------------------------------------------------
+# ACCOUNT PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION START
+--------------------------------------------------------------*/
+.breadcrumb_text h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+ul.breadcrumb li a {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+section.breadcrumb_main {
+    padding: 120px 0 40px 0;
+}
+
+/*--------------------------------------------------------------
+# ACCOUNT FIRST SECTION START
+--------------------------------------------------------------*/
+.account_main {
+    padding: 0px 0 100px 0;
+}
+
+.account_text {
+    padding:40px 20px;
+}
+
+.account_text p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.account_img img {
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+#second_section {
+    padding-top: 60px;
+}
+
+.second_text{
+  padding: 50px 20px 50px 20px; 
+}
+
+.second_text h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.second_text p{
+   font-size: 18px;
+    line-height: 25px;
+}
+
+
+a.btn-get-started3{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/*--------------------------------------------------------------
+# PLATFORM PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# PLATFORM FIRST SECTION START
+--------------------------------------------------------------*/
+#space_steps {
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+#platform_main {
+    padding: 50px 15px;
+    margin-bottom: 80px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.platform_text p{
+       font-size: 18px;
+    line-height: 25px;
+}
+
+section.platform_main {
+    padding: 0 0px 80px 0px;
+}
+
+.platformtree_img {
+    padding-top: 50px;
+}
+
+#second_section1 {
+    padding-top: 80px;
+}
+
+
+/*--------------------------------------------------------------
+# MARKETING CURRENCIES  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# MARKETING CURRENCIES FIRST SECTION START
+--------------------------------------------------------------*/
+.currencie_text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.currencie_order {
+    padding: 20px;
+    display: block;
+}
+
+
+.currencie_order ul li {
+     font-size: 22px;
+    line-height: 22px;
+        padding: 0 0px;
+}
+
+.currencie_order img {
+    max-width: 75%;
+}
+
+#currencie_main {
+    background: #A410FF;
+    border-radius: 40px;
+    padding: 50px 0px;
+}
+
+a.btn-get-started4{
+        font-size: 18px;
+    line-height: 25px;
+}
+
+
+/*--------------------------------------------------------------
+# ANALYTICS  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# ANALYTICS FIRST SECTION START
+--------------------------------------------------------------*/
+.analytics_main {
+    padding: 0 0 80px 0;
+}
+
+/*--------------------------------------------------------------
+# COMAPNY PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# COMAPNY FIRST SECTION START
+--------------------------------------------------------------*/
+#company {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 50px 0;
+}
+
+
+section.company_main {
+    padding: 0 15px 50px;
+}
+
+#company_main {
+    padding: 0px;
+    align-items: center;
+}
+
+
+.company_text p {
+       font-size: 18px;
+    line-height: 25px;
+}
+
+.currencie_last  h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.currencie_last p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# ACCOUNT TYPE  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# ACCOUNT TYPE SECTION START
+--------------------------------------------------------------*/
+
+.account-type_text p{
+        font-size: 18px;
+    line-height: 25px;
+}
+
+.pricing-plans {
+    padding: 0 0 80px 0;
+}
+
+
+.pricing-card .heading h4 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.pricing-card .price{
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.pricing-card .features li strong{
+      font-size: 18px;
+    line-height: 25px;
+}
+
+.pricing-card .features li{
+      font-size: 18px;
+    line-height: 25px;
+}
+
+
+.pricing-card .cta-btn{
+         font-size: 18px;
+    line-height: 25px;
+}
+
+.pricing-card.basic {
+    margin: 50px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*--------------------------------------------------------------# IPAD RESPONSIVE #--------------------------------------------------------------*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+/*--------------------------------------------------------------
+# ACCOUNT PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BREADCRUMBS SECTION START
+--------------------------------------------------------------*/
+section.breadcrumb_main {
+    padding: 120px 0 50px 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# ACCOUNT FIRST SECTION START
+--------------------------------------------------------------*/
+.account_main {
+    padding: 0px 0 100px 0;
+}
+
+.account_text {
+        padding: 50px;
+}
+
+.account_img img {
+    max-width: 100%;
+    padding-top:50px;
+}
+
+.account_img {
+    text-align: center;
+}
+
+.second_text{
+  padding: 50Px;
+      margin: 0 80px;
+}
+
+#second_section {
+    padding-top: 100px;
+}
+
+/*--------------------------------------------------------------
+# PLATFORM PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# PLATFORM FIRST SECTION START
+--------------------------------------------------------------*/
+
+
+
+#platform_main{
+    padding: 50px;
+}
+
+.platform_img {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#second_section1 {
+    padding-top: 100px;
+}
+
+.platformtree_img {
+     text-align: center;
+    padding-top: 50px;
+}
+
+
+
+/*--------------------------------------------------------------
+# MARKETING CURRENCIES  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# MARKETING CURRENCIES FIRST SECTION START
+--------------------------------------------------------------*/
+.currencie_img {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.currencie_order {
+    padding: 50px;
+    display: block;
+}
+
+#currencie_main {
+    padding: 50px;
+}
+
+/*--------------------------------------------------------------
+# ANALYTICS  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# ANALYTICS FIRST SECTION START
+--------------------------------------------------------------*/
+
+.analytics_main {
+    padding: 0 0 100px 0;
+}
+
+
+/*--------------------------------------------------------------
+# COMAPNY PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# COMAPNY FIRST SECTION START
+--------------------------------------------------------------*/
+#company {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 50px 0;
+}
+
+
+section.company_main {
+    padding: 0 15px 50px;
+}
+
+#company_main {
+    padding: 0px;
+    align-items: center;
+}
+
+
+
+/*--------------------------------------------------------------
+# ACCOUNT TYPE  PAGE START
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# ACCOUNT TYPE SECTION START
+--------------------------------------------------------------*/
+
+
+.pricing-plans {
+    padding: 50px 0 50px 0;
+}
+
+
+.pricing-card {
+    margin: 0 0 50px 0;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

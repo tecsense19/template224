@@ -573,6 +573,35 @@
   <script src="assets/js/main.js"></script>
 
 
+<script>
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    // items:5, 
+
+  // items change number for slider display on desktop
+  
+    loop:true,
+    margin:10,
+    autoplay:false,
+    autoplayTimeout:3000,
+    autoplayHoverPause:false,
+    touchDrag               : false,
+    mouseDrag               : false,
+    dots:false,
+         responsive: {
+                  0: {
+                    items: 2
+                  },
+                  768: {
+                    items: 3
+                  },
+
+                  1170: {
+                    items: 5
+                  }
+                }
+});
+</script>
 
 </body>
 

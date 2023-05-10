@@ -1287,7 +1287,14 @@ img.ipeadline {
     text-decoration: none;
 }
 
+div#d-com {
+    margin-top: 100px;
+}
 
+div#currencie_main .account_img img {
+    position: relative;
+    left: 100px;
+}
 
 
 
@@ -1703,6 +1710,20 @@ p{
         animation: none !important;
     }
 
+    div#d-com {
+    margin-top: 50px;
+}
+div#currencie_main .account_img img {
+    position: relative;
+    left: 0;
+}
+.platformtree_img img {
+    width: 100%;
+}
+section.platform_main .stepmain {
+    text-align: center !important;
+}
+
 }
 
 
@@ -2091,6 +2112,20 @@ div#footer2 {
         -ms-animation: none !important;
         animation: none !important;
     }
+
+    div#d-com {
+    margin-top: 50px;
+}
+div#currencie_main .account_img img {
+    position: relative;
+    left: 0;
+}
+.platformtree_img img {
+    width: 100%;
+}
+section.platform_main .stepmain {
+    text-align: center !important;
+}
 }
 
 
@@ -2994,6 +3029,7 @@ border: 1px solid transparent;
     border-radius: 40px;
     padding: 90px 60px;
     align-items: center;
+        margin: 0 5px;
 }
 
 .platform_text p{
@@ -3018,7 +3054,7 @@ img.plate_img {
 }
 
 section.platform_main {
-       padding: 0 0 120px 0;
+       padding: 0 0 180px 0;
     background-image: url(../image/bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -3190,6 +3226,7 @@ section.company_main {
     background: #FFFFFF;
     border-radius: 40px;
     padding: 70px 60px;
+        margin: 0 5px;
 }
 
 .company_text p{
@@ -3211,7 +3248,7 @@ max-width: 100%;
 }
 
 .company_img{
-    padding: 100px  0;
+    padding: 80px  0;
 }
 
 #company_main {
@@ -3255,7 +3292,7 @@ max-width: 100%;
 .pricing-card:hover {
   background-color: #17142A;
 /*  box-shadow: 0 0 32px #171717;*/
-  transform: translateY(-16px) scale(1.02);
+  transform: translateY(-50px) scale(1.02);
   transition: all 0.5s ease;
 }
 
@@ -3619,9 +3656,12 @@ textarea#message {
     border-radius: 100px;
     padding: 13px 45px;
     display: inline-block;
-    width: 100%;
+/*    width: 100%;*/
     border: none;
         transition: 0.5s !important;
+}
+.r-button {
+    text-align: center;
 }
 .formbold-btn:hover {
   background: #45086A;
@@ -3680,23 +3720,23 @@ section.thankyou {
 }
 
 .thankyou h1{
-        font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 48px;
-    line-height: 48px;
+    line-height: 60px;
     color: #FFFFFF;
     text-align: center;
-     margin-bottom: 25px;
+    margin-bottom: 25px;
 
 }
 .thankyou p{
-        margin-bottom: 15px;
+           margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
     color: #FFF;
     text-align: center;
 }
@@ -4075,6 +4115,7 @@ section.breadcrumb_main {
 .account_img img {
     max-width: 100%;
     padding-top:50px;
+        width: 100%;
 }
 
 .account_img {
@@ -4083,7 +4124,7 @@ section.breadcrumb_main {
 
 .second_text{
   padding: 50Px;
-      margin: 0 80px;
+/*      margin: 0 80px;*/
 }
 
 #second_section {

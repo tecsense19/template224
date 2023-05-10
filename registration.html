@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
-<!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+ <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -115,12 +115,12 @@
 
 <!-- =======  first section ======= -->
 
-<section class="contactinfo" id="registration">
+<section class="contactinfo" id="registration" data-aos="fade-up">
    <div class="container">
         <div class="row justify-content-center">
            <div class="col-lg-6">
             <div class="contact-box1">
-              <h2>Ask any question</h2>
+              <h2>Strart trading in minutes</h2>
               <div class="formbold-main-wrapper">
 
   <div class="formbold-form-wrapper">
@@ -132,6 +132,11 @@
       <div class="formbold-mb-5">
         <label for="name" class="formbold-form-label"> Surname </label>
         <input type="text" name="lastname" id="lastname" placeholder="Your surname" class="formbold-form-input" />
+      </div>
+
+      <div class="formbold-mb-5">
+        <label for="email" class="formbold-form-label"> Email </label>
+        <input type="email" name="email" id="email" placeholder="Enter e-mail" class="formbold-form-input">
       </div>
 
       <div class="formbold-mb-5">
@@ -174,7 +179,7 @@
      
 
 
-      <div>
+      <div class="r-button">
         <button class="formbold-btn">Registrate now</button>
       </div>
     </form>
@@ -450,3 +455,5 @@ function alertCountry(event) {
 </body>
 
 </html>
+
+

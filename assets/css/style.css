@@ -32,6 +32,7 @@ transition: 0.5s !important;
 font-size: 28px;
 color: #A410FF;
 line-height: 0;
+    font-weight: 700;
 }
 
 
@@ -732,7 +733,7 @@ section#timer {
 filter: blur(150px);
 transform: rotate(11.4deg);*/
 background:#05040E  url(../image/vector1.png);
-    padding: 100px 0;
+    padding: 100px 0 125px;
         background-size: cover;
             background-position: bottom;
 }
@@ -866,7 +867,7 @@ color: #FFFFFF;
 text-decoration:none;
 background: #A410FF;
 border-radius: 100px;
-padding: 13px 45px;
+padding: 13px 35px;
 display: inline-block;
 /*border: 1px solid transparent;*/
 }
@@ -987,7 +988,7 @@ section.trading::after {
 background: #FFF;
 border-radius: 40px;
 /*padding: 81px 37px 126px 60px;*/
-    padding: 115px  50px;
+    padding: 100px    50px;
 }
 
 .tranding_text h2{
@@ -1069,7 +1070,11 @@ bottom: 0;
 }
 
 .steps{
-padding:100px 0;
+    padding: 100px 0;
+    background: url(../image/bg3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: inherit;
 }
 
 #space_steps{
@@ -1161,6 +1166,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: #888888;  
+    padding: 0 50px 0 0;
 }
 
 
@@ -1257,10 +1263,29 @@ color: #FFFFFF;
     margin: 0;
 }
 
+.footer-text h2 {
+    display: none;
+}
 
+.footer_image {
+    margin-right: 0;
+    margin-left: -20px;
+}
+.footer_image img {
+    opacity: 0.2;
+}
+img.ipeadline {
+    display: none !important;
+}
 
-
-
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: #A410FF;
+    text-decoration: none;
+}
 
 
 
@@ -1478,7 +1503,7 @@ section.crypto{
 }
 
 .crypto_main{
-    padding-bottom: 50px ;
+      padding: 25px;
 }
 .mainbtn {
     display: block;
@@ -1491,23 +1516,40 @@ section.crypto{
     a.btn-mobile, a.btn-WebTrader {
     margin-bottom: 15px;
     font-size: 16px;
+        padding: 10px 16px;
 }
+
     .trading {
     padding: 0 15px; 
 }
 .tranding_img img {
     max-width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
 }
+.steps {
+    padding: 0px 0; 
+    }
 .tranding_text{
-        padding: 50px 50px;
+           padding: 25px;
 }
 .start h2 {
-   
+       font-size: 32px;
+    padding-bottom: 0;
+}
+.stepmain h3{
+    font-size: 22px;
+        text-align: center;
+}
+.stepmain p{
+    text-align: center;
 }
 .step_img {
     padding-bottom: 0px;
         display: none;
+}
+.step_btn {
+    text-align: center;
+    padding-top: 25px;
 }
 #space_steps{
         padding: 0 15px;
@@ -1532,6 +1574,13 @@ section.crypto{
 section.trading::after,.crypto::before{
         display: none;
 }
+.footer-top {
+    padding-top: 50px;
+}
+.footer-text p{
+    padding: 0;
+}
+
 .footer-policy ul{
         display: block;
 }
@@ -1577,16 +1626,20 @@ div#footer1 .col {
 .footer_image {
     margin-top: 25px;
     margin-bottom: 0px;
+        margin-left: 0;
 }
 .copyright p{
         text-align: left;
     
 }
 .copyright{
-        padding-top: 25px;
+           padding-top: 0;
 }
 .footer-policy li {
     margin-bottom: 10px;
+}
+.footer-policy li a {
+   font-size: 16px !important;
 }
 div#footer2 {
     margin-top: 15px;
@@ -1607,12 +1660,57 @@ display: none;
     display: none;
 }
 
+.footer-text h2 {
+    display: block;
+}
+.card_img img {
+    width: 100%;
+        padding-bottom: 0;
+        margin-top: 25px;
+}
+img.ipeadline {
+    display: none !important;
+}
+br{
+    display: none;
+}
+p{
+    font-size: 16px !important;
+}
 
+.Advantage ul li,.Advantage_two ul li{
+    font-size: 22px;
+}
+
+.animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
 
 }
 
 
 @media (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    br{
+        display: none;
+    }
     .navbar-mobile{
     right: 0 !important;
         background: #D9D9D9;
@@ -1688,10 +1786,10 @@ header#header .me-auto {
 
 
 #hero .intro-info h1{
-    font-size: 32px;
+        font-size: 32px;
     padding-bottom: 15px;
     padding-top: 0;
-    line-height: 34px;
+    line-height: 42px;
 }
 .herobtn {
     padding: 25px 0;
@@ -1700,19 +1798,23 @@ div#safemain{
     padding-bottom: 25px;
 }
 .section_two img {
-    max-width: 70%;
-    text-align: center;
+       max-width: 70%;
+    text-align: right;
+    position: absolute;
 }
 .section_two {
-    position: absolute;
-    right: 0;
+        position: relative;
     text-align: center;
-    margin-top: 0;
+    margin-top: -250px;
+        right: 110px;
+}
+.section_one p{
+        padding-bottom: 50px;
 }
 
 
 a.btn-get-started.scrollto{
-      padding: 16px 61px;
+          padding: 13px 35px;
 /*          width: 100%;*/
 }
 .main_products {
@@ -1723,10 +1825,13 @@ a.btn-get-started.scrollto{
 /*    padding: 0 89px;*/
 }
 section#timer {
-    margin-top: 115px;
+      margin-top: 0;
 }
 section#timer img {
    max-width: 100%;
+}
+.card_img {
+    margin-top: 25px;
 }
 .future,div#Advantage_main{
     padding  : 50px 0;
@@ -1758,6 +1863,7 @@ margin-bottom: 15px;
 }
 .Advantage {
     display: flex;
+        padding: 0 65px;
 }
 
 img.orderimg {
@@ -1772,6 +1878,7 @@ img.orderimg {
 .crypto_img {
     margin-top: 15px;
 }
+
 
 .crypto_img img {
     width: 100%;
@@ -1788,7 +1895,7 @@ section.crypto{
 }
 
 .crypto_main{
-    padding-bottom: 50px ;
+    padding: 50px ;
 }
 .mainbtn {
     display: flex;
@@ -1798,23 +1905,28 @@ section.crypto{
         margin-bottom: 15px;
         font-size:  16px;
     }
-    a.btn-mobile, a.btn-WebTrader {
-    margin-bottom: 15px;
-    font-size: 16px;
+a.btn-mobile{
+    a.btn-mobile
+}
+a.btn-WebTrader{
+        padding: 10px 80px;
 }
     .trading {
     padding: 0 15px; 
 }
 .tranding_img img {
     max-width: 100%;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .tranding_text{
         padding: 50px 50px;
 }
 .start h2 {
-   
+       padding-bottom: 50px;
 }
+.steps {
+    padding: 0px 0; 
+    }
 section.steps .step_img {
     padding-bottom: 0px;
         display: none;
@@ -1822,7 +1934,9 @@ section.steps .step_img {
 #space_steps{
         padding: 0 15px;
 }
-
+.footer-top {
+    padding-top: 50px;
+}
 .step_btn {
     padding-left: 0;
     padding-right: 0;
@@ -1832,6 +1946,9 @@ section.steps .stepmain img {
 }
 .mobileline{
     display: block;
+}
+img.mobileline {
+    display: none !important;
 }
 .tranding_img {
     position: unset;
@@ -1850,7 +1967,11 @@ section.trading::after,.crypto::before{
 }
 .stepmain img {
     margin-bottom: 25px;
-        width: 100%;
+/*        width: 100%;*/
+}
+img.mobileline {
+    width: 100%;
+    max-width: 100%;
 }
 .stepmain {
     text-align: center;
@@ -1901,7 +2022,7 @@ div#footer1 {
     padding: 25px 0;
 }
 .copyright{
-        padding-top: 25px;
+        padding-top: 0;
 }
 
 
@@ -1922,6 +2043,54 @@ display: block;
 .mobileshowfooter {
     display: block;
 }
+.footer-text h2 {
+    display: block;
+}
+.card_img img {
+    width: 100%;
+    padding-bottom: 0;
+}
+.Advantage_text h2 br {
+    display: none;
+}
+.step_img-iepad img,img.ipeadline {
+    display: block !important;
+        max-width: 100%;
+
+}
+.stepmain h3,.stepmain p{
+    text-align: center;
+}
+.step_btn {
+    text-align: center;
+    padding-top: 25px;
+}
+div#footer2 {
+    margin-top: 25px;
+}
+.footer-text p{
+    padding: 0;
+}
+.animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
 }
 
 
@@ -3616,7 +3785,7 @@ section.breadcrumb_main {
 # ACCOUNT FIRST SECTION START
 --------------------------------------------------------------*/
 .account_main {
-    padding: 0px 0 100px 0;
+    padding: 0px 0 50px  0;
 }
 
 .account_text {
@@ -3896,7 +4065,7 @@ section.breadcrumb_main {
 # ACCOUNT FIRST SECTION START
 --------------------------------------------------------------*/
 .account_main {
-    padding: 0px 0 100px 0;
+    padding: 0px 0 50px 0;
 }
 
 .account_text {
@@ -3949,7 +4118,7 @@ section.breadcrumb_main {
 }
 
 div#space_steps img {
-    width: unset !important;
+/*    width: unset !important;*/
 }
 div#space_steps {
     margin-top: 50px;
@@ -3957,6 +4126,7 @@ div#space_steps {
 div#space_steps .stepmain {
     text-align: left;
 }
+
 
 
 

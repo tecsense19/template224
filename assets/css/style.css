@@ -554,6 +554,7 @@ color:#05040E;
 div#mainheader {
 background: #FFF;
 border-radius: 100px;
+    justify-content: space-between;
 }
 
 
@@ -611,7 +612,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 2px;
 color: #05040E;
-padding: 6px 20px;
+    padding: 6px 0px 6px 20px;
 text-decoration: none;
 }
 
@@ -647,7 +648,7 @@ padding-top: 50px;
 
 
 .section_two img {
-max-width: 100%;
+max-width: 97%;
 }
 
 .section_two {
@@ -734,6 +735,7 @@ transform: rotate(11.4deg);*/
 background:#05040E  url(../image/vector1.png);
     padding: 100px 0 125px;
         background-size: cover;
+            background-position: bottom;
 }
 
 .future_hedding h2{
@@ -3499,6 +3501,168 @@ section.promotions {
     color: #FFF;
 }
 
+/*--------------------------------------------------------------
+# Contact  PAGE START
+--------------------------------------------------------------*/
+
+section.contactinfo {
+     padding: 0 0 120px 0;
+    background-image: url(../image/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-box {
+    padding: 125px 50px;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+.contact-box ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+/*        align-items: center;*/
+}
+.contact-box li {
+    margin-bottom: 25px;
+}
+.contact-box img {
+    margin-right: 25px;
+}
+.contact-box h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #05040E;
+}
+.contact-box a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888888;
+    text-decoration: none;
+}
+.contact-box a:hover{
+        color: #45086a;
+}
+
+.contact-box1 {
+       padding: 50px 80px;
+    background: #A410FF;
+    border-radius: 40px;
+}
+.contact-box1 h2{
+     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.formbold-mb-5 {
+  margin-bottom: 10px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+
+
+.formbold-form-label {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+      font-family: 'Roboto', sans-serif;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+textarea#message {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.formbold-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #05040E;
+    border-radius: 100px;
+    padding: 13px 45px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+        transition: 0.5s !important;
+}
+.formbold-btn:hover {
+  background: #45086A;
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+
+.formbold-mb-5 label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.formbold-mb-2 label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+input#checkbox1 {
+    margin-right: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Thank you  PAGE START
@@ -3509,7 +3673,7 @@ section.promotions {
 
 
 section.thankyou {
-       padding: 0 0 250px 0;
+       padding: 100px 0 250px 0;
     background-image: url(../image/bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -3863,6 +4027,20 @@ section.company_main {
     padding-bottom: 50px;
 }
 
+/*--------------------------------------------------------------
+# promotions  PAGE START
+--------------------------------------------------------------*/
+
+.contact-box, .contact-box1 {
+    padding: 25px 25px; 
+}
+.contact-box a{
+        font-size: 16px;
+}
+.contact-box1 {
+    margin-top: 25px;
+}
+
 }
 
 
@@ -4034,7 +4212,18 @@ section.company_main {
     padding-bottom: 50px;
 }
 
+
+/*--------------------------------------------------------------
+# promotions  PAGE START
+--------------------------------------------------------------*/
+
+.contact-box, .contact-box1 {
+    padding: 25px 25px; 
 }
-
-
+.contact-box a{
+        font-size: 16px;
+}
+.contact-box1 {
+    margin-top: 25px;
+}
 

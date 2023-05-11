@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> 
+<!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
 <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -98,13 +98,12 @@
 <section class="breadcrumb_main">
   <div class="container">
     <div class="row">
-
       <div class="col-lg-12">
         <div class="breadcrumb_text">
-          <h2>Platform for Desktop</h2>
+          <!-- <h2>Thank You</h2> -->
           <ul class="breadcrumb">
             <li><a href="index.html" class="breadcrumb_link">Home</a></li>
-            <li><a href="#">Platform for Desktop</a></li>
+            <li><a href="#">503</a></li>
           </ul>
         </div>
       </div>
@@ -114,75 +113,21 @@
 </section>
 <!-- End Breadcrumb section -->
 
-<!-- ======= platform first section ======= -->
-<section class="platform_main">
-  <div class="container">
-    <div class="row" id="platform_main" data-aos="fade-up">
-      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100" >
-        <div class="platform_text">
-          <p>Trade Forex & CFDs on an award-winning platform and discover why thousands choose to partner with xxxxx. Benefit from multiple assets across different categories with high leverage and ultra-low spreads.</p>
-          <p>Trade Forex & CFDs on an award-winning platform and discover why thousands choose to partner with xxxxx. Benefit from multiple assets across different categories with high leverage and ultra-low spreads.</p>
-          <p>Trade Forex & CFDs on an award-winning platform and discover why thousands choose to partner with xxxxx.</p>
-        </div>
-      </div>
-      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-        <div class="platform_img">
-          <img src="assets/image/Rectangle2.png">
-        </div>
-      </div>
-     </div> 
-    </div>
-  </div>
+<!-- =======  first section ======= -->
 
-  <div class="container">
-    <div class="row" id="space_steps">  
-      <div class="col-lg-4  col-md-6">
-        <div class="stepmain">
-          <img src="assets/image/order.png" class="plate_img">
-          <h3>Register an account</h3>
-          <p>Fill in all the fields with the required data and confirm your email address.</p>
+<section class="thankyou">
+   <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1>503</h1>
+            <p>We are working on that service to make it better</p>
+            <a  href="" class="btn-get2 allbtn">Back home</a>
+          </div>
         </div>
       </div>
-
-      <div class="col-lg-4  col-md-6">
-        <div class="stepmain">
-          <img src="assets/image/order1.png" class="plate_img">
-          <h3>Deposit money into your account</h3>
-          <p>Transfer money using any payment system convenient for you. After that, you can get to work.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4   col-md-6">
-        <div class="stepmain">
-          <img src="assets/image/order2.png" class="plate_img">
-          <h3>Start earning</h3>
-          <p>Use our trading platform, choose the best trading strategy, and get profit.</p>
-        </div>
-      </div>
-    </div>
-  </div>  
-  
-  <div class="container" id="second_section1">
-    <div class="row">
-      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-        <div class="second_text" id="platform_title">
-          <h2>Ready to start trading?<br>MetaTrader trading platform</h2>
-            <p>Become a crypto owner in minutes using your debit or credit card. Easily withdraw your money. </p>
-            <div class="account_btn">
-              <a href="#" class="btn-get-started3">Get started</a>
-            </div>
-        </div>
-      </div>
-
-      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-        <div class="platformtree_img">
-          <img src="assets/image/Group7.png">
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
-<!-- End platform second section -->
+
+<!-- End  second section -->
 
 
 <!-- ======= Footer Section ======= -->
@@ -366,10 +311,6 @@
     </div>  
   </footer>  
 
-
-
-
-
  <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -380,9 +321,37 @@
   <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
   <script src="assets/js/main.js"></script>
 
+<script>
+  let question = document.querySelectorAll(".question");
+
+question.forEach((qsitem) => {
+  qsitem.addEventListener("click", function (e) {
+    //   store the .answer div containing the answer
+    let sibling = qsitem.nextElementSibling;
+
+    // Nested loop for removing active class from all and set answer height to 0
+    question.forEach((item) => {
+      item.nextElementSibling.style.height = "0px";
+      //   remove class "active" except for the currently clicked item
+      item != qsitem && item.parentNode.classList.remove("active");
+    });
+    //then toggle the "active" class of clicked item's parent ".qna"
+    this.parentNode.classList.toggle("active");
+
+    // set actual height for .answer div if .qna has the class "active"
+    if (qsitem.parentNode.classList.contains("active")) {
+      sibling.style.height = sibling.scrollHeight + "px";
+    } else {
+      sibling.style.height = "0px";
+    }
+  });
+});
+
+</script>
 
 
 </body>
 
 </html>
+
 

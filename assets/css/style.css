@@ -648,7 +648,7 @@ padding-top: 50px;
 
 
 .section_two img {
-max-width: 97%;
+max-width: 100%;
 }
 
 .section_two {
@@ -1435,7 +1435,7 @@ div#safemain{
     right: 0;
     text-align: center;
     margin-top: 0;
-        top: unset;
+    top: unset;
 }
 
 
@@ -1829,8 +1829,8 @@ div#safemain{
         position: relative;
     text-align: center;
     margin-top: -250px;
-        right: 110px;
-            top: unset;
+           right: 110px;
+    top: unset;
 }
 .section_one p{
         padding-bottom: 50px;

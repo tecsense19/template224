@@ -642,7 +642,7 @@ margin: 0;
 div#safemain {
 background: #FFFFFF;
 border-radius: 40px;
-padding-bottom: 65px;
+padding-bottom: 0;
 padding-top: 50px;
 }
 
@@ -653,7 +653,8 @@ max-width: 97%;
 
 .section_two {
 position: absolute;
-right: 220px;
+    right: -100px;
+    top: -31px;
 }
 
 .herobtn {
@@ -1434,6 +1435,7 @@ div#safemain{
     right: 0;
     text-align: center;
     margin-top: 0;
+        top: unset;
 }
 
 
@@ -1828,6 +1830,7 @@ div#safemain{
     text-align: center;
     margin-top: -250px;
         right: 110px;
+            top: unset;
 }
 .section_one p{
         padding-bottom: 50px;
